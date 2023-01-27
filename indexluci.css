@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:url(./luciferback.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.main-header{
+    display: flex;
+    font-family: verdana;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 110px;
+}
+.nav-menu-items{
+    display: flex;
+}
+.nav-menu-item{
+    display: flex;
+    padding-left: 70px;
+    vertical-align: middle;
+}
+.nav-menu-item a{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu-item a:hover{
+    color: rgb(8, 189, 180);
+    transition: .3s;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 150px;
+}
+.movname{
+    height: 120px;
+    margin-left: 150px;
+    margin-top: 60px;
+
+}
+#line{
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 12px;
+}
+.checked{
+    color: orange;
+}
+.season{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-left: 150px !important;
+    margin-top: 5px !important;
+    padding: 0;
+    margin: 0;
+}
+.star5{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.genre{
+    display: inline-block;
+    color: rgb(180, 175, 175);
+    font-family: Montserrat;
+    margin-left: 145px;
+}
+.genre-item{
+    display: inline-block;
+    padding-left: 5px;
+}
+.btn1,.btn2{
+    height: 50px;
+    width: 65px;
+    border: none;
+}
+.button i{
+    font-size: 22px;
+    color: white;
+}
+.btn1{
+    background-color: rgb(4, 80, 76);
+}
+.btn2{
+    background-color: rgb(8, 189, 180);
+}
+.button{
+    margin-left: 150px;
+    margin-top: 12px;
+}
+.movies{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 0px 50px;
+    margin: 0 ;
+    padding: 0px 10px;
+    justify-content: center;
+}
+.intro{
+    font-family: Montserrat;
+    color: rgb(167, 165, 165);
+    margin-left: 150px;
+    height: 200px;
+}
+.card img{
+    width: 180px;
+    height: 250px;
+}
+.card{
+    margin-top: 25px;
+    display: inline-block;
+}
+.moviname{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.card2{
+    margin-left: 20px;
+}
+
+#passive {
+    display: none;
+}
+
+
+.card:nth-child(2):hover #passive.active{
+    display: inline-block;
+}
